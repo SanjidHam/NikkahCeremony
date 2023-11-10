@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'CustomFont'; /* Choose a name for your font family */
-    src: url('ChopinScript.ttf') format('truetype'); /* Specify the font file path and format */
+    src: url('Fortune.otf') format('opentype'); /* Specify the font file path and format */
 }
 
 body {
