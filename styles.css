@@ -32,7 +32,7 @@ body {
 
 .title {
     color: #000000;
-    font-size: 1.5rem;
+    font-size: 1.65rem;
     margin-top: 0;
     margin-bottom: 0;
     font-family: 'Fortune', sans-serif;
@@ -40,7 +40,7 @@ body {
 
 .section {
     color: #000000;
-    font-size: 1.5rem;
+    font-size: 1.65rem;
     margin-top: 10px;
     margin-bottom: 0;
     font-family: 'Brush Script MT', 'Brush Script Std', cursive;
@@ -48,7 +48,7 @@ body {
 
 .date {
     color: #000000;
-    font-size: 1.25rem;
+    font-size: 1rem;
     margin-top: 0;
     margin-bottom: 0;
     font-family: 'CustomFont', sans-serif;
