@@ -7,14 +7,15 @@ body {
     margin: 0;
     padding: 0;
     background: no-repeat center center fixed;
-    background-image: url("bg1.png"), url("engagementPhoto.png"), url("bg2.png");
+    /* background-image: url("bg1.png"), url("engagementPhoto.png"), url("bg2.png"); */
+    background-image:url("engagementPhoto.png");
     background-size: auto 100%, auto 100%, auto 100%;
-    background-position: left top, center top, right top;
+    /* background-position: left top, center top, right top; */
     background-repeat: no-repeat;
     height: 100vh;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     background-color: #e6e2e8;
     /* font-family: 'CustomFont', sans-serif; */
     text-align: center;
