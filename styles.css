@@ -1,5 +1,5 @@
 @font-face {
-    font-family: 'CustomFont'; /* Choose a name for your font family */
+    font-family: 'Fortune'; /* Choose a name for your font family */
     src: url('Fortune.otf') format('opentype'); /* Specify the font file path and format */
 }
 
@@ -34,7 +34,7 @@ body {
     font-size: 3rem;
     margin-top: 0;
     margin-bottom: 0;
-    font-family: 'CustomFont', sans-serif;
+    font-family: 'Fortune', sans-serif;
 }
 
 .section {
