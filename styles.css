@@ -68,6 +68,19 @@ body {
     font-family: 'Brush Script MT', 'Brush Script Std', cursive;
 }
 
+.map-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 5px; /* Adjust the margin as needed */
+    width: 20px; /* Adjust the width to your desired size */
+    height: auto; /* Maintain the aspect ratio */
+}
+
+.map-link {
+    text-decoration: none;
+    color: inherit; /* Use the text color of the surrounding text */
+}
+
 .btn {
     display: inline-block;
     padding: 10px 20px;

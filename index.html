@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Our Wedding</title>
     <link rel="stylesheet" type="text/css" href="styles.css">
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAejoSPyEpKsJAomFdfGmQB-kPZ4hEGYbU&callback=initMap" async defer></script>
 </head>
 <body>
 
@@ -28,7 +29,6 @@
             // For example: document.styleSheets[0].insertRule(`body { font-family: 'FallbackFont', sans-serif; }`, 0);
         }
     }
-
     window.onload = checkScreenSize;
 </script>
 
@@ -47,9 +47,11 @@
     <h3 class="section">December 18th, 2023</h3>
     <!-- <h3 class="date">September 15th, 2024</h3> -->
     <div id="countdown"></div>
-    <p class="info">Hope to see you all there</p>
-    <!-- <a class="btn" href="https://docs.google.com/forms/d/1AYBTfGY2kSYAFaLuSwy4I1Z9rI8qasmXEqQur7Q7zHg/edit" target="_blank">RSVP</a> -->
+    <p class="info">Hope to see you all here <a class="map-link" href="https://www.google.com/maps/place/Secret+Garden+Event+Spaces/@23.8326814,90.461227,17z/data=!4m15!1m8!3m7!1s0x3755c9a66f348681:0x5d89aaebf66e840a!2sSecret+Garden+Event+Spaces!8m2!3d23.8326814!4d90.4638019!10e1!16s%2Fg%2F11h942147s!3m5!1s0x3755c9a66f348681:0x5d89aaebf66e840a!8m2!3d23.8326814!4d90.4638019!16s%2Fg%2F11h942147s?entry=ttu" target="_blank">
+        <img class="map-icon" src="locationPin.png">
+    </a></p>
 </div>
+<div id="map"></div>
 
 <script src="wedsite.js"></script>
 </body>
